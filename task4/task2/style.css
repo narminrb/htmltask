@@ -1,0 +1,128 @@
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 246, 249);
+  padding: 70px;
+}
+
+.checkbox-row {
+  display: flex;            
+  align-items: center;      
+  gap: 10px;                
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: auto;             
+}
+.form{
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  width: 600px; 
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; 
+ul{
+  margin: 0;
+  padding: 0;
+  li{
+    background-color: lightgreen;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    color: darkgreen;
+  }
+}
+  .img-box{
+    margin: 30px 0;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .header{
+    h1{
+      display: flex;
+      justify-content: center;
+      background-color: #007bff; 
+      color: white;          
+      padding: 10px 20px;      
+      border: none;               
+      cursor: pointer;         
+      font-size: 26px; 
+    }
+    h2{
+      display: flex;
+      justify-content: center;
+      background-color:antiquewhite; 
+      color: #5f5e5e;          
+      padding: 7px 20px;      
+      border: none;             
+      cursor: pointer;         
+      font-size: 16px; 
+    }
+    p{
+      display: flex;
+      justify-content: center;
+      background-color:#c8d4e1; 
+      color: black;          
+      padding: 7px 20px;      
+      border: none;             
+      cursor: pointer;         
+      font-size: 16px; 
+    }
+  }
+ 
+}
+
+.bodypart {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;              
+  width: 100%;           
+}
+
+.bodypart label {
+  font-weight: bold;       
+  margin-bottom: 5px;      
+}
+
+.bodypart input,
+.bodypart select {
+  padding: 10px;          
+  font-size: 16px;         
+  border: 1px solid #ccc; 
+  border-radius: 5px;    
+  width: 100%;            
+  box-sizing: border-box;  
+}
+
+
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  button {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: green; 
+    color: white;          
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 4px;
+    border: none;             
+    cursor: pointer;         
+  }
+}
+
+

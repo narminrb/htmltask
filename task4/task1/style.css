@@ -1,0 +1,91 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 246, 249);
+  padding: 70px;
+}
+
+.checkbox-row {
+  display: flex;            
+  align-items: center;      
+  gap: 10px;                
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: auto;             
+}
+.form{
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  width: 450px; 
+  height: 600px;
+  display: flex;
+  flex-direction: column; 
+  .header{
+    h1{
+      display: flex;
+      justify-content: center;
+      background-color: #007bff; 
+      color: white;          
+      padding: 10px 20px;      
+      border: none;            
+      border-radius: 5px;     
+      cursor: pointer;         
+      font-size: 26px; 
+    }
+    h2{
+      display: flex;
+      justify-content: center;
+      background-color: rgb(221, 220, 220); 
+      color: #5f5e5e;          
+      padding: 7px 20px;      
+      border: none;            
+      border-radius: 5px;     
+      cursor: pointer;         
+      font-size: 16px; 
+    }
+  }
+ 
+}
+
+.bodypart {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;              
+  width: 100%;           
+}
+
+.bodypart label {
+  font-weight: bold;       
+  margin-bottom: 5px;      
+}
+
+.bodypart input,
+.bodypart select {
+  padding: 10px;          
+  font-size: 16px;         
+  border: 1px solid #ccc; 
+  border-radius: 5px;    
+  width: 100%;            
+  box-sizing: border-box;  
+}
+
+
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  background-color: green; 
+  color: white;          
+  padding: 10px 15px; 
+  font-size: 20px;
+  border-radius: 7px;
+  border: none;             
+  cursor: pointer;         
+}
+
+
